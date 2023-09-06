@@ -4,13 +4,13 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.libcuda.so": "https://registry-1.docker.io",
-  "quay.libcuda.so": "https://quay.io",
-  "gcr.libcuda.so": "https://gcr.io",
-  "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  "k8s.libcuda.so": "https://registry.k8s.io",
-  "ghcr.libcuda.so": "https://ghcr.io",
-  "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
+  "docker.ttgsclub.com": "https://registry-1.docker.io",
+  "quay.ttgsclub.com": "https://quay.io",
+  "gcr.ttgsclub.com": "https://gcr.io",
+  "k8s-gcr.ttgsclub.com": "https://k8s.gcr.io",
+  "k8s.ttgsclub.com": "https://registry.k8s.io",
+  "ghcr.ttgsclub.com": "https://ghcr.io",
+  "cloudsmith.ttgsclub.com": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
